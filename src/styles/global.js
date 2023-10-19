@@ -16,6 +16,12 @@ export default createGlobalStyle`
 
 
   body {
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_MAIN};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_MAIN};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
   };
+
+
 `;

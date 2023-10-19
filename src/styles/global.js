@@ -17,12 +17,21 @@ export default createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.COLORS.BACKGROUND_MAIN};
+    color: ${({ theme }) => theme.COLORS.WHITE};
 
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
   };
 
-  h1, input {
+  input, button {
     color: ${({ theme }) => theme.COLORS.WHITE};
+    font-size: 1.6rem;
+
+    transition: .5s;
   }
+
+  button:hover {
+    transition: .5s;
+    filter: brightness(0.9);
+  };
 `;

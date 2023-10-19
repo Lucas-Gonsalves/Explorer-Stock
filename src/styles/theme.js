@@ -5,6 +5,8 @@ export default {
 
     GRAY_300: "#5A595E",
 
-    WHITE: "#F4EDE8"
+    WHITE: "#F4EDE8",
+
+    PURPLE: "#4b2a53"
   }
 };

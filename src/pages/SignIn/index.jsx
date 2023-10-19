@@ -2,6 +2,7 @@ import { Container, Form } from "./styles";
 import { FiMail, FiLock } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
+import { Button } from "../../components/Button";
 
 
 export function SignIn() {
@@ -19,11 +20,17 @@ export function SignIn() {
           <Input 
             icon={FiMail}
             placeholder="E-mail"
+            autocomplete="email"
           />
 
           <Input 
             icon={FiLock}
             placeholder="Password"
+            autocomplete="current-password"
+          />
+
+          <Button 
+            title="Entrar"
           />
 
         </Form>

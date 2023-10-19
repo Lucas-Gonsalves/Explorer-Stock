@@ -22,7 +22,7 @@ export const Container = styled.div`
   };
 
   > svg {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: ${({ theme }) => theme.COLORS.GRAY_300};
   }; 
 `;

@@ -3,7 +3,8 @@ export default {
 
     BACKGROUND_MAIN: "#121214",
 
-    WHITE: "#F4EDE8"
+    GRAY_300: "#5A595E",
 
+    WHITE: "#F4EDE8"
   }
 };

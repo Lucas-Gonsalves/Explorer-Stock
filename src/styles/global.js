@@ -17,11 +17,12 @@ export default createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.COLORS.BACKGROUND_MAIN};
-    color: ${({ theme }) => theme.COLORS.WHITE};
 
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
   };
 
-
+  h1, input {
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
 `;

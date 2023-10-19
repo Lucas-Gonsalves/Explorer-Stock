@@ -28,5 +28,6 @@ export const Content = styled.div`
   
   > svg {
     font-size: 1.6rem;
+    min-width: 1.6rem;
   };
 `;

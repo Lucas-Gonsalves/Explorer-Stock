@@ -2,11 +2,15 @@ export default {
   COLORS: {
 
     BACKGROUND_MAIN: "#121214",
+    BACKGROUND_500: "#202024",
+    
+    PURPLE: "#6E4468",
+    PURPLE_100: "#9F779b",
 
     GRAY_300: "#5A595E",
+    GRAY_400: "#6B6A6F",
 
     WHITE: "#F4EDE8",
-
-    PURPLE: "#4b2a53"
+    WHITE_TRANSPARENT: "#FFFFFF95"
   }
 };

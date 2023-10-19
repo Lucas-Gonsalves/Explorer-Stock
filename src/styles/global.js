@@ -20,18 +20,21 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 1.6rem;
   };
 
   input, button {
     color: ${({ theme }) => theme.COLORS.WHITE};
+    
     font-size: 1.6rem;
+    font-weight: 400;
 
     transition: .5s;
   }
 
   button:hover {
     transition: .5s;
-    filter: brightness(0.9);
+    filter: brightness(0.85);
   };
 `;

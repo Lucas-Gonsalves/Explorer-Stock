@@ -1,8 +1,9 @@
 import { Container, Form } from "./styles";
-import { FiMail, FiLock } from "react-icons/fi";
+import { FiMail, FiLock, FiUserPlus } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
+import { ButtonText } from "../../components/ButtonText";
 
 
 export function SignIn() {
@@ -34,6 +35,12 @@ export function SignIn() {
           />
 
         </Form>
+
+        <ButtonText 
+          icon={FiUserPlus}
+          title="Criar conta"
+        />
+
 
       </main>
     </Container>
